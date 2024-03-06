@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29bc7152b5029a0478ec5154ceaf2a3a, type: 3}
+  m_Name: TurretEnemy
+  m_EditorClassIdentifier: 
+  health: 5
+  roamSpeed: 2.5
+  chaseSpeed: 4
+  detectionRange: 6
+  attackDamage: 0
+  attackRange: 1.4
+  attackDelay: 0.3
+  priority: 2
+  drop: {fileID: 2127831597876800916, guid: 6e4f8a2a67c54b545b71e6c968fae652, type: 3}
+  projectile: {fileID: 8008186437836970667, guid: a10d1ab0219de0d449d4583437626f2e, type: 3}
